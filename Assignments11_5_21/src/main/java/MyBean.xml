@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="EmpObj" class="com.examle.model.Employee">
+
+<property name="empid" value="101"></property>
+<property name="empname" value="Shraddha"></property>
+<property name="empsal" value="100000"></property>
+<property name="addreess" value="hyd"></property>
+		</bean>
+		
+		<bean id="AddressObj" class="com.examle.model.Address">
+<property name="hno" value="1002"></property>
+<property name="colony" value="Shivaji  Nagar"></property>
+<property name="area" value="Ramanthapur"></property>
+		</bean>
+		
+		
+		<bean id="CompanyObj" class="com.examle.model.Company">
+<property name="cNmae" value="Ojas"></property>
+
+		</bean>
+		
+</beans>
